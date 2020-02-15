@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tipos de selectores que entran en examen</title>
+            <style> 
+                .clase
+                    {color: orange;
+                    background-color: red}
+                #id{color: blue;
+                    background-color: green}
+                 * {text-align: center;
+                    color: rgb(112, 40, 52);}
+                h1{color:chartreuse;
+                    background-color:crimson}
+                ul li {color: rgb(0, 217, 255);}
+			    ol li {color: rgb(255, 0, 170);}
+                p:hover {background-color: yellow;}
+
+            </style>
+    </head>
+    <body>
+        <h1>Tipos de selectores que entran en examen</h1>
+            
+        <h2 class="clase">1.Clase (class=””)</h2> 
+            <p>La etiqueta clase sirve para ,añadiéndola en el "style", puedes crear una clase que puedes añadir a cualquier otra etiqueta del documento y esta cambia su estilo. Por ejemplo el título de este apartado tiene una clase que le pone color y fondo. </p>
+        <h2 id="id">2.Identificador (id=””)</h2>
+            <p>La etiqueta clase sirve para ,añadiéndola en el "style", puedes crear una clase que puedes añadir a cualquier una del documento y esta cambia su estilo. Por ejemplo el título de este apartado tiene una clase que le pone color y fondo. </p>
+        <h2>3.Todos los elementos (*)</h2>
+            <p>Permite añadir a todos los elementos del documento un estilo. Por ejemplo en este documento todos los elementos tiene color granate y están alineados al centro.</p>
+        <h2>4.Varios elementos ( p, em, h1, h2) </h2>
+            <p>Permite añadir a algunas etiquetas específicas un estilo. Por ejemplo en este documento los elementos "h1" tiene color verde y fondo rojo.</p>
+        <h2>5.Elementos contenidos en otros elementos (ol li)</h2>
+            <p>Permite añadir a algunas etiquetas de listas un estilo. Por ejemplo en este documento los elementos de las lista tiene colores azul y rosa.</p>
+            <ol> 
+                <li> Esto </li> 
+                <li> es </li> </ol>
+            <ul> 
+                <li> un </li>
+                <li> ejemplo</li> </ul>
+        <h2>6.Sobrevuleo (p:hover)</h2>
+            <p>Todos los elementos "p" del documento se ponen de color amarillo al pasar el cursor por encima.</p>
