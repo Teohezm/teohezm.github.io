@@ -26,24 +26,24 @@
 			Mis hobbies son hacer deporte o jugar a videojuegos. </p></div>
 	<div id="dos"><h2>Mis ejercicios Introducción HTML</h2>
 			<div class="class"><a href="html-ejerc1-intro">Ejercicio 1</a> <br>
-							<a href="html-ejerc2-poema.hmtl">Ejercicio 2</a> <br>
-							<a href="html-ejerc3-enfasis.hmtl">Ejercicio 3</a> <br>
-							<a href="html-ejerc4-listas.hmtl">Ejercicio 4</a> <br>
-							<a href="html-ejerc5-uft-8.hmtl">Ejercicio 5</a> <br>
-							<a href="html-ejerc6-img.hmtl">Ejercicio 6</a> <br>
+							<a href="html-ejerc2-poema">Ejercicio 2</a> <br>
+							<a href="html-ejerc3-enfasis">Ejercicio 3</a> <br>
+							<a href="html-ejerc4-listas">Ejercicio 4</a> <br>
+							<a href="html-ejerc5-uft-8">Ejercicio 5</a> <br>
+							<a href="html-ejerc6-img">Ejercicio 6</a> <br>
 	</div> </div>
 	
 	<div id="tres"> <h2>Mis ejercicios Introducción CSS</h2>
-		 	<div class="class"><a href="html-ejerc7-viaje.hmtl">Ejercicio 7</a> <br>
-							<a href="html-ejerc8-color.hmtl">Ejercicio 8</a> <br>
-							<a href="html-ejerc9-criatura.hmtl">Ejercicio 9</a> <br>
-							<a href="html-ejerc10-ciratura2.hmtl">Ejercicio 10</a> <br>
-							<a href="html-ejerc11-formato.hmtl">Ejercicio 11</a> <br>
-							<a href="html-ejerc13-Olafs.hmtl">Ejercicio 12</a> <br>
-							<a href="html-ejerc13-clases.hmtl">Ejercicio 13</a> <br>
-							<a href="html-ejerc14-desafio-clases.hmtl">Ejercicio 14</a> <br>
-							<a href="html-ejerc15-selectores.hmtl">Ejercicio 15</a> <br>
-							<a href="html-ejerc16.hmtl">Ejercicio 16</a> <br>
+		 	<div class="class"><a href="html-ejerc7-viaje">Ejercicio 7</a> <br>
+							<a href="html-ejerc8-color">Ejercicio 8</a> <br>
+							<a href="html-ejerc9-criatura">Ejercicio 9</a> <br>
+							<a href="html-ejerc10-ciratura2">Ejercicio 10</a> <br>
+							<a href="html-ejerc11-formato">Ejercicio 11</a> <br>
+							<a href="html-ejerc13-Olafs">Ejercicio 12</a> <br>
+							<a href="html-ejerc13-clases">Ejercicio 13</a> <br>
+							<a href="html-ejerc14-desafio-clases">Ejercicio 14</a> <br>
+							<a href="html-ejerc15-selectores">Ejercicio 15</a> <br>
+							<a href="html-ejerc16">Ejercicio 16</a> <br>
 	</div> </div>
 	<div id="cuatro"><h2>Web hosting</h2>
 		Un web hosting es un servicio online para poder ver distintas webs desde distintos dispositivos por medio de internet.Yo he usado un web hosting conectado con mi cuenta de Office que lleva a una web en la que están todos mis ejercicios. En mi caso esta es: 
