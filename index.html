@@ -4,13 +4,13 @@
 		<style> 
 			h1{color :rgb(62, 105, 26)}
 			 
-			body{ background-color: rgb(255, 255, 255)}
+			body{ background-image:url="https://steemitimages.com/p/C3TZR1g81UNaPs7vzNXHueW5ZM76DSHWEY7onmfLxcK2iQSUY8mh7xu9VYQtbpvs4q8SJwAeCeHTTtHvMDPgQiwmiDybgh4cSApq9x8ABZhBcR2Rv8w3h7U?format=match&mode=fit"}
 	
 			p{color :rgb(85, 77, 88)font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 			
 			#uno{background-color:rgb(102, 255, 204);
 			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-			#dos{background-color:rgb(114, 27, 88); {font-family: Arial, Helvetica, sans-serif;}}
+			#dos{background-color:rgba(114, 27, 88, 0.383); {font-family: Arial, Helvetica, sans-serif;}}
 			#tres{background-color:rgb(228, 228, 38); {font-family: Arial, Helvetica, oblique;}} 
 			#cuatro{background-color:rgb(192, 59, 41);} 
 			#cinco{background-color:rgb(73, 144, 40);}
@@ -21,17 +21,66 @@
 				  margin-right: auto;}
 			 a{color:rgb(37, 26, 21);font-variant: small-caps}
              		 a:hover{color:rgb(255, 255, 255);font-variant: small-caps}
+			ol li{	border-style:dotted;
+				border-width:5px;
+				border-color: rgb(0, 0, 0);;
+				border-radius:10px;
+				background-color: rgb(93, 137, 240);
+				margin-right: auto;
+				width: 20%;
+				margin-left: auto;
+				text-align: center;
+				}
+			ol li:hover {	border-style:dotted;
+				border-width:5px;
+				border-color: rgb(255, 255, 255);;
+				border-radius:10px;
+				background-color: rgb(240, 110, 59);
+				margin-right: auto;
+				width: 20%;
+				margin-left: auto;
+				text-align: center;
+				}
+             ol{list-style: none;}
+			 ul li{	border-style:dotted;
+				border-width:5px;
+				border-color: rgb(0, 0, 0);;
+				border-radius:10px;
+				background-color: rgb(235, 42, 42);
+				margin-right: auto;
+				width: 20%;
+				margin-left: auto;
+				text-align: center;
+				}
+			ul li:hover {	border-style:dotted;
+				border-width:5px;
+				border-color: rgb(255, 255, 255);;
+				border-radius:10px;
+				background-color: rgb(215, 221, 132);
+				margin-right: auto;
+				width: 20%;
+				margin-left: auto;
+				text-align: center;
+				}
+             ul{list-style: none;}
 			   </style>
         <meta charset="utf-8">
         <title>Index</title>
     </head>
     <body>
-	<div id="uno"><h1 class="class">Mi trabajo en TICII, Teo Hernández</h1> <br>
+	<div id="uno"><h1 id="arriba" class="class">Mi trabajo en TICII, Teo Hernández</h1> <br>
 		 <p> Me llamo <strong>Teo</strong> y estoy estudiando humanidades.<br>
 			<img class="clase"<img src="medios/yo.JPG" alt="yo" height="200"> <br>	
 			Lo que me gustaría llegar a estudiar es comunicación audivisual o algo parecido.
-			Mis hobbies son hacer deporte o jugar a videojuegos. </p></div>
-	<div id="dos"><h2>Mis ejercicios Introducción HTML</h2>
+			Mis hobbies son hacer deporte o jugar a videojuegos. </p>
+		<ol> 
+			<li> <p><a href="#html">Mis ejercicios Introducción HTML</a></p></li><br>
+			<li><p><a href="#css">Mis ejercicios Introducción CSS</a></p></li><br>
+			<li><p><a href="#mas">Mis ejercicios de Más etiquetas CSS</a></p></li><br>
+		</ol></div>
+
+	<div id="dos"><h2 id="html">Mis ejercicios Introducción HTML</h2>
+		
 			<div class="class"><a href="html-ejerc1-intro">Ejercicio 1</a> <br>
 							<a href="html-ejerc2-poema">Ejercicio 2</a> <br>
 							<a href="html-ejerc3-enfasis">Ejercicio 3</a> <br>
@@ -39,10 +88,12 @@
 							<a href="html-ejerc5-utf-8">Ejercicio 5</a> <br>
 							<a href="html-ejerc6-img">Ejercicio 6</a> <br>
 							<a href="html-ejerc7-viaje">Ejercicio 7</a> <br>
+							<ul> <li> <p><a href="#arriba">Volver arriba</a></p></li> </ul>
 	</div> </div>
 	
-	<div id="tres"> <h2>Mis ejercicios Introducción CSS</h2>
+	<div id="tres"> <h2 id="css">Mis ejercicios Introducción CSS</h2>
 		 	<div class="class">
+				
 							<a href="html-ejerc8-color">Ejercicio 8</a> <br>
 							<a href="html-ejerc9-criatura">Ejercicio 9</a> <br>
 							<a href="html-ejerc10-criatura2">Ejercicio 10</a> <br>
@@ -52,13 +103,16 @@
 							<a href="html-ejerc14-desafio-clases">Ejercicio 14</a> <br>
 							<a href="html-ejerc15-selectores">Ejercicio 15</a> <br>
 							<a href="html-ejerc16">Ejercicio 16</a> <br>
+							<ul> <li> <p><a href="#arriba">Volver arriba</a></p></li> </ul>
 	</div> </div>
-	    <div id="cinco"> <h2>Mis ejercicios de Más etiquetas CSS</h2>
+	    <div id="cinco"> <h2 id="mas">Mis ejercicios de Más etiquetas CSS</h2>
 		 	<div class="class">
+				
 							<a href="html-ejerc18-vinculos">Ejercicio 18</a> <br>
 							<a href="html-ejerc19-vinculos-internos">Ejercicio 19</a> <br>
 							<a href="html-ejerc20-tabla">Ejercicio 20</a> <br>
 							<a href="html-ejerc21-proyecto-recetas">Ejercicio 21</a> <br>
+							<ul> <li> <p><a href="#arriba">Volver arriba</a></p></li> </ul>
 	</div> </div>
 	<div id="cuatro"><h2>Web hosting</h2>
 		Un web hosting es un servicio online para poder ver distintas webs desde distintos dispositivos por medio de internet. <br>
