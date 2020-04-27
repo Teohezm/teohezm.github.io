@@ -1,274 +1,298 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+    <head>
+        <title>TIC II Index con Layout</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <style>
+           
+            :root{
+                
+                font-family: Arial, Helvetica, sans-serif;
 
-<head>
-	<style>
-		.hero-image {
-			background-image: url("/medios/hero.jpg");
-			background-color: #cccccc;
-			height: 500px;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			position: relative;
-		}
-
-		.hero-text {
-			text-align: center;
-			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-			position: absolute;
-			top: 25%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			color: white;
-			background-color: grey;
-		}
-
-		h1 {
-			color: rgb(62, 105, 26)
-		}
-
-		p {
-			color: rgb(255, 255, 255); 
-
-		}
-		#texto-principio {margin-top: 140px;}
-		#uno {
-			background-color: rgb(102, 255, 204);
-			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-		}
-
-		#dos {
-			background-color: rgba(114, 27, 88, 0.383);
-
-				
-				font-family: Arial, Helvetica, sans-serif;
-			
-		}
-
-		#tres {
-			background-color: rgb(228, 228, 38);
-
-				
-				font-family: Arial, Helvetica, oblique;
-			}
-		
-
-		#cuatro {
-			background-color: rgb(192, 59, 41);
-		}
-
-		#cinco {
-			background-color: rgb(73, 144, 40);
-		}
-
-		.class {
-			text-align: center;
-		}
-
-		h2:hover {
-			background-color: rgb(72, 255, 0);
-		}
-
-		.clase {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		a {
-			color: rgb(37, 26, 21);
-			font-variant: small-caps
-		}
-
-		a:hover {
-			color: rgb(255, 255, 255);
-			font-variant: small-caps
-		}
-
-		ol {
-			list-style-type: none;
-  			margin: 20px;
-			text-align: center;
-  			padding: 0;
-			  
-		}
-		
-		ol li{
-			display: inline;
-			margin:50px;
-			border-radius: 10px;
-			background-color: rgb(93, 137, 240);
-			border-width: 5px;
-			border-color: rgb(0, 0, 0);
-			
-		}
-		
-		 ol li {
-			border-style: dotted;
-			border-width: 5px;
-			border-color: rgb(0, 0, 0);
-			;
-			border-radius: 10px;
-			background-color: rgb(61, 42, 235);
-			margin-right: auto;
-			width: 20%;
-			margin-left: auto;
-			text-align: center;
-		}
-		
-
-		ol li:hover {
-			border-style: dotted;
-			border-width: 5px;
-			border-color: rgb(218, 210, 210);
-			;
-			border-radius: 10px;
-			background-color: rgb(235, 58, 42);
-			margin-right: auto;
-			width: 20%;
-			margin-left: auto;
-			text-align: center;
-		}
-		
-		ul li {
-			border-style: dotted;
-			border-width: 5px;
-			border-color: rgb(0, 0, 0);
-			;
-			border-radius: 10px;
-			background-color: rgb(235, 42, 42);
-			margin-right: auto;
-			width: 20%;
-			margin-left: auto;
-			text-align: center;
-		}
-
-		ul li:hover {
-			border-style: dotted;
-			border-width: 5px;
-			border-color: rgb(255, 255, 255);
-			;
-			border-radius: 10px;
-			background-color: rgb(215, 221, 132);
-			margin-right: auto;
-			width: 20%;
-			margin-left: auto;
-			text-align: center;
-		}
-
-		ul {
-			list-style: none;
-		}
-
-	
-		
-		a {text-decoration: none; padding: 7px;}
-        ol li {list-style: none; display: inline-block; padding-left: 1.5%; padding-right: 1.5%;}
-        ol {text-align: center; margin-top: 40px; margin-bottom: 50px; line-height: 47px;}
-		
-		#footer{background-color: rgb(39, 38, 38);}
-		#texto-final{text-align: center;}
-		.clase {display: block;
+                --color_oscuro:rgb(136, 73, 73);
+                --color_oscuro_transparente:rgba(61, 135, 149, 0.602);
+                --blanco:#fff;
+                --rojo:rgb(14, 245, 168);
+                font-size: 1vw;
+            }
+            
+            
+            *{  padding:0px;
+                margin:0px;
+            }
+            a{
+                text-decoration: none;
+            }
+            
+            .clase {display: block;
 				  margin-left: auto;
-				  margin-right: auto;
-				  padding-top:10px}
-	</style>
-	<meta charset="utf-8">
-	<title>Index</title>
-</head>
+				  margin-right: auto;}
 
-<body>
-	<main>
-		<section class="hero-image">
-			<h1 id="arriba" class="class">
-				<header>
-					<div class="hero-text">Mi trabajo en TICII, Teo Hernández
-			</h1>
-			</div>
-			</header><br>
-			<p id="texto-principio"> Me llamo <strong>Teo</strong> y estoy estudiando humanidades.<br>
-				Lo que me gustaría llegar a estudiar es comunicación audivisual o algo parecido.
-				Mis hobbies son hacer deporte o jugar a videojuegos. </p>
-				<nav>
-					<ol>
-						<h2>Enlace a las secciones de mi página</h2>
-						<li><a href="#html">Ejercicios introducción HTML</a></li>
-						<li><a href="#css"> Ejercicios introducción CSS</a></li>
-						<li><a href="#mas">Ejercicios de más etiquetas</a></li>
-					</ol>
-				</nav>
-		</section>
-		
+            ol, ul {
+		        list-style: none;
+	        }
+            
+           
+            .centrado_bloque{
+               margin-left: auto;
+               margin-right: auto; 
+            }
+          
+            header{
+                position:fixed;
+                top:0px;
+                left:0px;
+                background-color: var(--color_oscuro);
+                min-height: 3.5rem;
+                width: 100%;
+                z-index: 2000;
+            }
+            #footer{background-color: rgb(98, 94, 94);}
+            p {text-align: center;}
 
-		<section id="dos">
-			<h2 id="html">Mis ejercicios Introducción HTML</h2>
+            header{position: fixed;}
+            
+                        header div{
+                            position: fixed;
+                            top: 0.25rem;
+                            left:2rem;
+                            color:var(--rojo);
+                            font-size: 1.5rem;
+                                                       
+                        }
+                        header nav{
+                            position:fixed;
+                            top:1rem;
+                            right:5rem; 
+                            font-size: 1.25rem;
+                            font-weight: bold;
+                            
+                            
+                        }
+                          
+                        header nav ul{
+                            text-align: right;
+                        }                  
+                        header nav ul > li{
+                            display: inline-block;
+                            vertical-align: top;
+                            text-align: left;
+                            min-width: 10rem;
 
-			<section class="class"><a href="html-ejerc1-intro">Ejercicio 1</a> <br>
-				<a href="html-ejerc2-poema">Ejercicio 2</a> <br>
-				<a href="html-ejerc3-enfasis">Ejercicio 3</a> <br>
-				<a href="html-ejerc4-listas">Ejercicio 4</a> <br>
-				<a href="html-ejerc5-utf-8">Ejercicio 5</a> <br>
-				<a href="html-ejerc6-img">Ejercicio 6</a> <br>
-				<a href="html-ejerc7-viaje">Ejercicio 7</a> <br>
-				<ul>
-					<li>
-						<p><a href="#arriba">Volver arriba</a></p>
-					</li>
-				</ul>
-			</section>
-		</section>
+                        }
 
-		<section id="tres">
-			<h2 id="css">Mis ejercicios Introducción CSS</h2>
-			<section class="class">
+                        header nav ul li > ul{
+                            display: none;
+                        }
 
-				<a href="html-ejerc8-color">Ejercicio 8</a> <br>
-				<a href="html-ejerc9-criatura">Ejercicio 9</a> <br>
-				<a href="html-ejerc10-criatura2">Ejercicio 10</a> <br>
-				<a href="html-ejerc11-formato">Ejercicio 11</a> <br>
-				<a href="html-ejerc12-Olafs">Ejercicio 12</a> <br>
-				<a href="html-ejerc13-clases">Ejercicio 13</a> <br>
-				<a href="html-ejerc14-desafio-clases">Ejercicio 14</a> <br>
-				<a href="html-ejerc15-selectores">Ejercicio 15</a> <br>
-				<a href="html-ejerc16">Ejercicio 16</a> <br>
-				<ul>
-					<li>
-						<p><a href="#arriba">Volver arriba</a></p>
-					</li>
-				</ul>
-			</section>
-		</section>
-		<section id="cinco">
-			<h2 id="mas">Mis ejercicios de Más etiquetas CSS</h2>
-			<section class="class">
+                        header nav ul li:hover ul{
+                            display: block;
+                            text-align: center;
+                        }
+                        header nav ul li:hover li{
+                            display:block;
+                            background-color: var(--color_oscuro);
+                        }
+                        
+                       
+                        .submenu:hover ul {
+                            display: block;                 
+                        }
 
-				<a href="html-ejerc18-vinculos">Ejercicio 18</a> <br>
-				<a href="html-ejerc19-vinculos-internos">Ejercicio 19</a> <br>
-				<a href="html-ejerc20-tabla">Ejercicio 20</a> <br>
-				<a href="html-ejerc21-proyecto-recetas">Ejercicio 21</a> <br>
-				<a href="html-ejerc24-videos">Ejercicio 24</a> <br>
-				<ul>
-					<li>
-						<p><a href="#arriba">Volver arriba</a></p>
-					</li>
-				</ul>
-			</section>
-		</section>
-		
-			<section id="cuatro">
-				<h2>Web hosting</h2>
-				Un web hosting es un servicio online para poder ver distintas webs desde distintos dispositivos por
-				medio de internet. <br>
-				Yo he usado un web hosting conectado con mi cuenta de Office que lleva a una web en la que están todos
-				mis ejercicios. <br>
-				En mi caso antes utilizaba esta:
-				<a href="https://drv.tw/"> Drive to web </a> <br>
-				Ahora estoy utilizando <a href="https://github.com"> Github.com </a> ya que es más rapido y sencillo.
-			</section>
-			<footer id="footer"> 
-				<p><img class="clase" src="medios/logo.png" alt="Logo" height="90"></p>
-				<p id="texto-final">Teo Hernández
-				</p>            
-			</footer>
-	</main>
+                        .submenu:hover ul > li{
+                            display: block;
+                            background-color: var(--color_oscuro);
+                        }
+                        
+                        nav a{
+                            color: var(--blanco);
+                        }
+                        nav a:hover{
+                            background-color: var(--blanco);
+                            color:var(--color_oscuro);
+                        }
+
+            .hero{
+                background-image:  url("/medios/hero.jpg");
+                background-color: #cccccc;
+                height: 750px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: center;
+            }
+            .hero div{
+                position:relative;
+                top:20rem;
+                right:50rem;
+                background-color: var(--color_oscuro_transparente);
+                color:var(--blanco);
+                font-size: 1.25rem;
+                max-width: 30%;
+                padding:3em;
+            }
+            .hero:hover div{
+                left:0;
+            }
+            .hero div>p{
+                padding-top: 3em;
+                columns:2;
+            }
+            h1{font-family: 'Times New Roman', Times, serif;}
+        
+            h2 {font-family: Verdana, Geneva, Tahoma, sans-serif; 
+                font-variant: small-caps; 
+                text-align: center}
+
+            h2:hover{font-family: Verdana, Geneva, Tahoma, sans-serif; 
+                     font-variant: small-caps; 
+                     background-color: rgb(223, 205, 136);
+                     text-align: center;}
+            main{
+                margin-left: auto;
+                margin-right: auto;
+                top: 50rem;
+                left:10%;
+                min-width: 80%;
+                max-width: 80%;
+                z-index: 2000;
+            }
+
+            main article{
+                min-height: 300px;
+                min-width:50%;
+                background-color: var(--color_oscuro_transparente);
+                padding-top: 10px;
+                padding-bottom: 10px;
+             }
+
+            main article section{
+                min-height: 100px;
+                margin: 10px;
+               
+                font-size: 1.5rem;
+            }
+            
+            #actividades li{
+                display: inline-block;
+                background-color: var(--blanco);
+                color:var(--color_oscuro);
+                margin:2em;
+
+            }
+            #actividades li:hover{
+                background-color: var(--color_oscuroo);
+                color:var(--blanco);
+                margin:2em;
+
+            }
+          ul li {border-style: solid ;}
+            
+            
+
+        </style>
+    </head>
+    <body>
+        
+        
+        <header>
+            <div class="contendor-fijo-izquierda">
+                <h1>TIC Teo Hernández.</h1>
+            </div>
+           
+            <nav class="contendor-fijo-derecha">
+                <ul>
+                  
+                    <li class="submenu"><a href="">Mis trabajos de TIC</a>
+                        <ul>
+                            <li><a href="#ejercicios-1">Ejercicios introducción HTML</a></li>
+						<li><a href="#ejercicios-2"> Ejercicios introducción CSS</a></li>
+						<li><a href="#ejercicios-3">Ejercicios de más etiquetas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index_antiguo">Mi último index</a></li>
+                    <li><a href="#yo">Sobre mi</a></li>
+                </ul>
+            </nav>
+        </header>  
+        
+    
+            
+            <div class="hero">
+                <div>
+                    <h2>Trabajar con HTML.</h2>
+                    <p>Trabajar con HTML ha de ser algo que encuentres entretenido, si no es así no tendrás la paciencia suficiente para solventar los problemas que sin duda se te presentarán. En mi caso esta página web ha sido de lo que mas me ha costado hacer.</p>
+                </div>
+                
+            </div>
+        
+
+        
+               
+        <main>
+
+            
+            <article id="actividades">
+                <section id="ejercicios-1">
+                    <h2>Ejercicios introducción HTML</h2> 
+                    <ul>
+                    <li><a href="html-ejerc1-intro">Ejercicio 1</a> <br></li>
+                    <li><a href="html-ejerc2-poema">Ejercicio 2</a> <br></li>
+                    <li><a href="html-ejerc3-enfasis">Ejercicio 3</a> <br></li>
+                    <li><a href="html-ejerc4-listas">Ejercicio 4</a> <br></li>
+                    <li><a href="html-ejerc5-utf-8">Ejercicio 5</a> <br></li>
+                    <li><a href="html-ejerc6-img">Ejercicio 6</a> <br></li>
+                    <li><a href="html-ejerc7-viaje">Ejercicio 7</a> <br></li>
+                    </ul>
+                   
+                   </section>
+                <section id="ejercicios-2">
+                    <h2>Ejercicios introducción CSS</h2> 
+                    <ul>
+                        <li><a href="html-ejerc8-color">Ejercicio 8</a> <br></li>
+                        <li><a href="html-ejerc9-criatura">Ejercicio 9</a> <br></li>
+                        <li><a href="html-ejerc10-criatura2">Ejercicio 10</a> <br></li>
+                        <li><a href="html-ejerc11-formato">Ejercicio 11</a> <br></li>
+                        <li><a href="html-ejerc12-Olafs">Ejercicio 12</a> <br></li>
+                        <li><a href="html-ejerc13-clases">Ejercicio 13</a> <br></li>
+                        <li><a href="html-ejerc14-desafio-clases">Ejercicio 14</a> <br></li>
+                        <li><a href="html-ejerc15-selectores">Ejercicio 15</a> <br></li>
+                        <li><a href="html-ejerc16">Ejercicio 16</a> <br></li>
+                    </ul>  
+                              
+                </section>
+                <section id="ejercicios-3">
+                    <h2>Ejercicios de más etiquetas</h2> 
+                    <ul>
+                        <li>  <a href="html-ejerc18-vinculos">Ejercicio 18</a> <br></li>
+                        <li><a href="html-ejerc19-vinculos-internos">Ejercicio 19</a> <br></li>
+                        <li> <a href="html-ejerc20-tabla">Ejercicio 20</a> <br></li>
+                        <li> <a href="html-ejerc21-proyecto-recetas">Ejercicio 21</a> <br></li>
+                        <li> <a href="html-ejerc24-videos">Ejercicio 24</a> <br></li>
+                       
+                    </ul>               
+                </section>
+        
+            </article> 
+            
+            <article id="yo">
+                <section><h2>Sobre mi.</h2> 
+                    <p>  Me llamo Teo Hernández y desde pequeño los ordenadores y los videojuegos han sido mi pasión, también me gusta mucho hacer deporte y estar con mis amigos. </p></section>
+                    <img class="clase" src="medios/yo.jpg" alt="yo" height="200">
+            </article>
+        
+           
+
+        </main>
+    
+        
+        <footer id="footer"> 
+            <p><img class="clase" src="medios/Logo.png" alt="Logo" height="90"></p>
+            <p id="texto-final">Teo Hernández
+            </p>            
+        </footer>
+
+    </body>
+</html>
